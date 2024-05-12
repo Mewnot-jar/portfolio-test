@@ -1,17 +1,13 @@
 import React from 'react'
 import './header.css'
 import Navbar from '../navbar/Navbar'
-import { useMediaQuery } from 'react-responsive'
 
 const Header = () => {
 
-    const isMobile = useMediaQuery({ query: '(max-width: 1024px)' });
-    const isMobileClass = isMobile ? 'isMobile' : 'isDesk'
-
     return (
         <header>
-            <Navbar isMobile={isMobile}/>
-            <div className={`header-container ${isMobileClass}`}>
+            <Navbar/>
+            <div className='header-container'>
                 <h1 className='header-title'>Martin Ardiles - Desarrollador Web</h1>
                 <div className='container-header-icons'>
                     <div className='header-icons'>

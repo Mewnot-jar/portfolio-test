@@ -1,18 +1,45 @@
-header{
+header {
     height: 600px;
+    background-image: linear-gradient(to bottom, #2c2c2c, #232323, #191919, #101010, #000000);
     border-bottom: 10px solid #fff;
 }
-.header-container{
+
+.header-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     color: white;
     margin-top: 200px;
     text-align: center;
     font-size: 60px;
-    display: flexbox;
 }
-.header-container h1{
+
+.header-container h1 {
+    width: 0;
     font-size: 40px;
+    border-right: .15em solid #fff;
+    animation: typing 4s steps(34) 1s normal both, blink 1s steps(1) infinite;
+    overflow: hidden;
+    white-space: nowrap;
 }
-.circle-container{
+
+@keyframes blink {
+    50% {
+        border-color: transparent;
+    }
+}
+
+@keyframes typing {
+    from {
+        width: 0;
+    }
+
+    to {
+        width: 835px;
+    }
+}
+
+.circle-container {
     background-image: url('../../assets/profile-image.jpg');
     background-position: center;
     background-size: cover;
@@ -20,42 +47,81 @@ header{
     height: 300px;
     border: 10px solid #fff;
     border-radius: 100%;
-    margin-left: 100px;
     position: absolute;
-    top: 440px;
+    top: 435px;
+    left: 6%;
 }
-.container-header-icons{
+
+.container-header-icons {
     display: flex;
     align-items: center;
     justify-content: center;
 }
-.header-icons{
+
+.header-icons {
     display: flex;
     justify-content: space-between;
     gap: 80px;
     margin-top: 60px;
+    align-items: center;
 }
-.header-icons a{
+
+.header-icons a {
     transition: 0.2s;
     border: 2px solid #ffffff00;
 }
-.header-icons a:hover{
+
+.header-icons a:hover {
     padding: 0 30px;
     background-color: #1E1E1E;
     border: 2px solid #fff;
     border-radius: 30px;
 }
 
-/* Mobile */
-.header-container.isMobile{
-    margin-top: 30px;
-}
-.header-container.isMobile h1{
-    font-size: 30px;
-}
-.header-container.isMobile .container-header-icons .header-icons{
-    gap: 10px;
-}
-.header-container.isMobile .circle-container{
-    margin-left: 37px;
+@media only screen and (max-width: 1450px) {
+
+    /* Mobile */
+    header {
+        
+    }
+
+    .header-container {
+        margin-top: 30px;
+    }
+
+    .header-container h1 {
+        width: 0;
+        font-size: 16px;
+        border-right: .15em solid #fff;
+        animation: typing 4s steps(34) 1s normal both, blink 1s steps(1) infinite;
+        overflow: hidden;
+        white-space: nowrap;
+    }
+
+    @keyframes blink {
+        50% {
+            border-color: transparent;
+        }
+    }
+
+    @keyframes typing {
+        from {
+            width: 0;
+        }
+
+        to {
+            width: 330px;
+        }
+    }
+
+    .header-container .container-header-icons .header-icons {
+        gap: 10px;
+    }
+
+    .circle-container {
+        left: 0;
+        right: 0;
+        margin: auto;
+    }
+
 }

@@ -34,31 +34,10 @@ const ParticlesComponent = (props) => {
     () => ({
       background: {
         color: {
-          value: "#1E1E1E",
+          value: "#050505",
         },
       },
-      fpsLimit: 120,
-      interactivity: {
-        events: {
-          onClick: {
-            enable: true,
-            mode: "repulse",
-          },
-          onHover: {
-            enable: true,
-            mode: 'grab',
-          },
-        },
-        modes: {
-          push: {
-            distance: 200,
-            duration: 15,
-          },
-          grab: {
-            distance: 150,
-          },
-        },
-      },
+      fpsLimit: 60,
       particles: {
         color: {
           value: "#FFFFFF",
@@ -96,7 +75,6 @@ const ParticlesComponent = (props) => {
           value: { min: 1, max: 3 },
         },
       },
-      detectRetina: true,
     }),
     [],
   );
