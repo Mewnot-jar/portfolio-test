@@ -93,6 +93,7 @@
 }
 .date-container{
     width: 20%;
+    align-content: center;
 }
 .date-container p{
     font-size: 15px;
@@ -152,5 +153,15 @@
     .about-techs-container{
         margin: 0 20px;
         justify-content: space-around;
+    }
+    .date-container p{
+        font-size: 9px;
+        font-weight: bold;
+    }
+    .desc-container p{
+        font-size: 13px;
+    }
+    .types-techs-container h5{
+        font-size: 15px;
     }
 }
