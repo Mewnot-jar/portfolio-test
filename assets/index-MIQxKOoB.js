@@ -1,0 +1,2 @@
+const __vite__fileDeps=["assets/OpacityUpdater-DFnj-lkp.js","assets/index-BiN4tg1e.js","assets/index-Dbu2S23R.css"],__vite__mapDeps=i=>i.map(i=>__vite__fileDeps[i]);
+import{_ as i}from"./index-BiN4tg1e.js";async function p(t,a=!0){await t.addParticleUpdater("opacity",async r=>{const{OpacityUpdater:e}=await i(()=>import("./OpacityUpdater-DFnj-lkp.js"),__vite__mapDeps([0,1,2]));return new e(r)},a)}export{p as loadOpacityUpdater};
