@@ -28,8 +28,8 @@ const Navbar = () => {
             </div>
             <nav className='li-container'>
                 <ul>
+                    <li>Sobre mi</li>
                     <li>Proyectos</li>
-                    <li>Sobre Mi</li>
                     <li>Contactame</li>
                 </ul>
             </nav>
@@ -38,17 +38,17 @@ const Navbar = () => {
                     <ListItem sx={{margin: 0}}>
                         <ListItemButton>
                             <ListItemIcon>
-                                <FolderCopyIcon sx={{color: 'white'}}/>
+                                <InfoIcon sx={{color: 'white'}}/>
                             </ListItemIcon>
-                            Proyectos
+                            Sobre mi
                         </ListItemButton>
                     </ListItem>
                     <ListItem sx={{margin: 0}}>
                         <ListItemButton>
                             <ListItemIcon>
-                                <InfoIcon sx={{color: 'white'}}/>
+                                <FolderCopyIcon sx={{color: 'white'}}/>
                             </ListItemIcon>
-                            Sobre Mi
+                            Proyectos
                         </ListItemButton>
                     </ListItem>
                     <ListItem sx={{margin: 0}}>

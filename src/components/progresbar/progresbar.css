@@ -1,0 +1,19 @@
+.bar-container{
+    border: 3px solid #fff;
+    border-radius: 10px;
+    width: 50%;
+    height: 20px;
+    align-content: center;
+}
+.fill-content{
+    height: 15px;
+    background-color: #fff;
+    border-radius: 7px 0 0 7px;
+    text-align: right;
+    align-content: center;
+    font-weight: bold;
+    color: #1E1E1E;
+}
+.fill-content p{
+    margin-right: 10px;
+}

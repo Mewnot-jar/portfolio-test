@@ -83,7 +83,6 @@ const Projects = () => {
     const changeOpacity = (id) => {
         return id === currentProject ? 'selected' : ''
     }
-    console.log(projects[currentProject - 1])
     return (
         <div className='project-main-container'>
             <div className='rectangle-title-container'>

@@ -6,7 +6,7 @@
 .section-project-container {
     height: 700px;
     display: flex;
-    background-image: linear-gradient(to bottom, #212121, #1b1b1b, #141414, #0c0c0c, #000000);
+    background-color: #1E1E1E;
     border: 2px solid #fff;
     border-radius: 20px;
     position: relative;
@@ -15,7 +15,7 @@
 
 .rectangle-title-container {
     height: 150px;
-    background-image: linear-gradient(to bottom, #212121, #1b1b1b, #141414, #0c0c0c, #000000);
+    background-color: #1E1E1E;
     border: 2px solid #fff;
     border-radius: 20px;
     width: 40%;
