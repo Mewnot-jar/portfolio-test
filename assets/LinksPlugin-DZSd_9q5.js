@@ -1,0 +1,2 @@
+const __vite__fileDeps=["assets/LinkInstance-qw1qA9z0.js","assets/index-3YT3CDiV.js","assets/index-kmuzoKVV.css","assets/CanvasUtils-OecV5HS4.js"],__vite__mapDeps=i=>i.map(i=>__vite__fileDeps[i]);
+import{_ as i}from"./index-3YT3CDiV.js";class s{constructor(){this.id="links"}async getPlugin(n){const{LinkInstance:t}=await i(()=>import("./LinkInstance-qw1qA9z0.js"),__vite__mapDeps([0,1,2,3]));return new t(n)}loadOptions(){}needsPlugin(){return!0}}export{s as LinksPlugin};
