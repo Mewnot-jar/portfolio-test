@@ -1,2 +1,0 @@
-const __vite__fileDeps=["assets/ColorUpdater-J5ZS5oEd.js","assets/index-7U-x-P0i.js","assets/index-BqblTcVy.css"],__vite__mapDeps=i=>i.map(i=>__vite__fileDeps[i]);
-import{_ as e}from"./index-7U-x-P0i.js";async function i(r,o=!0){await r.addParticleUpdater("color",async t=>{const{ColorUpdater:a}=await e(()=>import("./ColorUpdater-J5ZS5oEd.js"),__vite__mapDeps([0,1,2]));return new a(t)},o)}export{i as loadColorUpdater};
