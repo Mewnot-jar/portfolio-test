@@ -164,4 +164,7 @@
     .types-techs-container h5{
         font-size: 15px;
     }
+    .experiencie-container{
+        gap: 15px;
+    }
 }
